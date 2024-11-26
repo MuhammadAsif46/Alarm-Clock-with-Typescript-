@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",         // Output directory for compiled JavaScript files
+    "target": "es5",            // ECMAScript target version
+    "module": "commonjs",       // Module system
+    "strict": true              // Enable strict type checking
+  },
+  "include": ["./src/**/*.ts"], // Specify all .ts files in src/ and its subfolders       // Exclude the output directory
+}
